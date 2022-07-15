@@ -1,0 +1,64 @@
+@import "../Global.scss";
+
+.header {
+    padding: 25px 94px;
+
+    &__logo {
+        height: 48px;
+        border: 0;
+        transform: border;
+        transition: border 0.1s;
+    }
+
+    &__logo:hover {
+        border: 1px solid #FDCE0E;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+
+        .nav__line {
+            margin-left: 100px;
+            ul {
+                
+                display: flex;
+                
+                .nav__item {
+                    margin-left: 55px;
+
+                    a {
+                        font-size: 18px;
+                        color: #3C4852;
+                    }
+
+                }
+            }
+        }
+
+        .nav__login {
+
+
+            ul {
+                &:first-child {
+                    margin-left: 150px;
+                }
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    margin-left: 35px;
+                    align-items: center;
+                }
+
+            }
+        }
+    }
+
+}
+
+

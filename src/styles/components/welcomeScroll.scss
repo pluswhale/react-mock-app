@@ -1,0 +1,35 @@
+@import '../Global.scss';
+
+.welcomescroll {
+    position: relative;
+    background-image: url(../img/Bg_1.png);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.intro__school {
+    margin-top: 138px;
+    margin-right: 60px;
+
+    .intro__conditions {
+        margin-top: 39px;
+
+        p {
+            margin-bottom: 60px;
+        }
+    }
+}
+
+.intro__student {
+    height: 622px;
+    width: 591px;
+    background-image: url(../img/intro-just-girl.png);
+    background-repeat: no-repeat;
+}
+
+.stylized-text-yellow {
+    color: #FDCE0E;
+}
